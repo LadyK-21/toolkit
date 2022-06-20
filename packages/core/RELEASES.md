@@ -1,7 +1,7 @@
 # @actions/core Releases
 
 ### 1.9.0
-- Added `toPosixPath`, `toWin32Path` and `toPlatformPath` utilities [#1102](https://github.com/actions/toolkit/pull/1102)
+- Added `toPosixPath`, `toWin32Path` and `toPlatformPath` utilities [#1116](https://github.com/actions/toolkit/pull/1116)
 
 ### 1.8.2
 - Update to v2.0.1 of `@actions/http-client` [#1087](https://github.com/actions/toolkit/pull/1087)
@@ -59,12 +59,12 @@
 
 ### 1.2.0
 
-- saveState and getState functions for wrapper tasks (on finally entry points that run post job)
+- `saveState` and `getState` functions for wrapper tasks (on final entry points that run `post` job)
 
 ### 1.1.3 
 
-- setSecret added to register a secret with the runner to be masked from the logs
-- exportSecret which was not implemented and never worked was removed after clarification from product.
+- `setSecret` added to register a secret with the runner to be masked from the logs
+- `exportSecret` which was not implemented and never worked was removed after clarification from product.
 
 ### 1.1.1
 
